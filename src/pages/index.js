@@ -7,22 +7,40 @@ import Button from '@/components/Button'
 
 const useStyles = makeStyles()(() => {
   return{
+    width_700: {
+      width: '700px',
+      [theme.breakpoints.down('sm')]: {
+        width: '350px'
+      }
+    },
     section_2: {
       background: theme.palette.background.default
     },
     section_4: {
       backgroundImage: 'url(/images/dobra_4_bg.png)',
       backgroundSize: 'cover',
-      backgroundPosition: 'center center'
+      backgroundPosition: 'center center',
+      [theme.breakpoints.down('sm')]: {
+        backgroundImage: 'url(/images/dobra_4_bg_sm.png)',
+        height: '1670px'
+      }
     },
     section_5: {
       backgroundImage: 'url(/images/dobra_5_bg.png)',
       backgroundSize: 'cover',
-      backgroundPosition: 'center center'
+      backgroundPosition: 'center center',
+      [theme.breakpoints.down('sm')]: {
+        backgroundImage: 'url(/images/dobra_5_bg_sm.png)',
+        height: '1526px'
+      }
     },
     section_7: {
       backgroundImage: 'url(/images/dobra_7_bg.png)',
       backgroundSize: 'cover',
+      [theme.breakpoints.down('sm')]: {
+        backgroundImage: 'url(/images/dobra_7_bg_sm.png)',
+        height: '1167px'
+      }
     },
     common_width: {
       width: '430px',
@@ -86,8 +104,7 @@ const Home = () => {
             fontSize={'38px'}
             lineHeight={'48px'}
             textAlign={'center'}
-            width={'700px'}
-            className={`${classes.alignCenter_div} ${classes.margin_8}`}
+            className={`${classes.alignCenter_div} ${classes.margin_8} ${classes.width_700}`}
           >
             Descubra o poder da sua essência: transforme a sua vida e reconstrua a sua família em 30 dias.
           </Typography>
@@ -95,8 +112,7 @@ const Home = () => {
             fontSize={'24px'}
             lineHeight={'34px'}
             textAlign={'center'}
-            width={'700px'}
-            className={classes.alignCenter_div}
+            className={`${classes.alignCenter_div} ${classes.width_700}`}
           >
             Conheça um pouco do que a Imersão Valorizando a Essência oferece a você e sua família. Assista o vídeo:
           </Typography>
@@ -203,7 +219,7 @@ const Home = () => {
             lineHeight={'34px'}
             textAlign={'center'}
             width={'700px'}
-            className={`${classes.alignCenter_div} ${classes.margin_40}`}
+            className={`${classes.alignCenter_div} ${classes.margin_40} ${classes.width_700}`}
           >
             A imersão já <strong>transformou a vida de mais de 300 famílias</strong> e uma dessas famílias foi a da Nelma. Assista o vídeo e <strong>veja as mudanças</strong> que ela teve na vida dela e da família:
           </Typography>
@@ -213,7 +229,7 @@ const Home = () => {
             lineHeight={'34px'}
             textAlign={'center'}
             width={'700px'}
-            className={`${classes.alignCenter_div} ${classes.margin_80}`}
+            className={`${classes.alignCenter_div} ${classes.margin_80} ${classes.width_700}`}
           >
             Assim como a Nelma <strong>você também pode ter essa transformação na sua família.</strong>
           </Typography>
