@@ -12,6 +12,11 @@ const useStyles = makeStyles()(() => {
       backgroundSize: 'cover',
       backgroundPosition: 'center center'
     },
+    section_5: {
+      backgroundImage: 'url(/images/dobra_5_bg.png)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center center'
+    },
     common_width: {
       width: '430px',
       [theme.breakpoints.down('sm')]: {
@@ -215,7 +220,7 @@ const Home = () => {
       </Container>       
 
       <Container maxWidth={'100vw'} className={classes.section_4}>
-        <Container maxWidth={'md'} className={classes.common_padding} style={{color: 'white'}}>
+        <Container maxWidth={'md'} className={classes.common_padding} style={{color: '#EBE5E5'}}>
           <Typography
             variant={'h2'}
             fontSize={'32px'}
@@ -275,6 +280,57 @@ const Home = () => {
             color={'tertiary'}
             text={'Sim! Quero participar'}
           />
+        </Container>
+      </Container>
+
+      <Container maxWidth={'100vw'} className={classes.section_5}>
+        <Container maxWidth='md' className={classes.common_padding}>
+          <Typography
+            variant={'h2'}
+            fontSize={'32px'}
+            lineHeight={'42px'}
+            className={`${classes.common_width} ${classes.alignCenter_div} ${classes.margin_24}`}
+          >
+            Após a imersão <strong>você terá a melhor versão de si mesma.</strong>
+          </Typography>
+          <Box 
+            style={{
+              display: 'flex', 
+              flexDirection: 'column', 
+              gap: '8px',
+              marginBottom: '24px'
+            }}
+            className={`${classes.common_width} ${classes.alignCenter_div}`}
+          >
+            <Typography
+              fontSize={'24px'}
+              lineHeight={'34px'}
+            >
+              Durante 30 dias nós estaremos juntos e empenhados em transformar a história do seu lar e da sua vida. Mostrando a você mulher que <strong>é possível fazer as pazes com o passado e viver o hoje sem culpas e mágoas.</strong>
+            </Typography>
+
+            <Typography
+              fontSize={'24px'}
+              lineHeight={'34px'}
+            >
+              Você irá entender como <strong>perdoar quem te feriu e se perdoar</strong> por erros cometidos irá tirar de você um grande peso das costas. Após a imersão você estará pronta para <strong>viver uma vida leve com a sua melhor versão.</strong>
+            </Typography>
+
+            <Typography
+              fontSize={'24px'}
+              lineHeight={'34px'}
+              className={`${classes.common_width} ${classes.alignCenter_div}`}
+              style={{marginBottom: '40px'}}
+            >
+              Você deseja participar desse jornada de <strong>autoconhecimento e transformação?</strong>
+            </Typography>
+
+            <Button 
+              color={'primary'}
+              text={'Quero participar'}
+            />
+          </Box>
+          
         </Container>
       </Container>
 

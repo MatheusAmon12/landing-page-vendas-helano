@@ -11,8 +11,7 @@ const ButtonCTA = ({color, text, display, margin}) => {
                 color: 'white', 
                 fontWeight: 'bold', 
                 display: `${display}`, 
-                margin: `${margin}`
-            }}
+                margin: `${margin}`}}
         >
             {`${text}`}
         </Button>
