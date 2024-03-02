@@ -34,7 +34,7 @@ const theme = createTheme({
                 },
                 h2: {
                     fontFamily: 'Raleway, sans-serif',
-                    fontWeight: 'bold'
+                    fontWeight: 'normal'
                 },
                 body1: {
                     fontFamily: 'Roboto, sans-serif'
