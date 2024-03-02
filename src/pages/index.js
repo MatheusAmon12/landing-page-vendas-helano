@@ -7,6 +7,9 @@ import Button from '@/components/Button'
 
 const useStyles = makeStyles()(() => {
   return{
+    section_2: {
+      background: theme.palette.background.default
+    },
     section_4: {
       backgroundImage: 'url(/images/dobra_4_bg.png)',
       backgroundSize: 'cover',
@@ -16,6 +19,10 @@ const useStyles = makeStyles()(() => {
       backgroundImage: 'url(/images/dobra_5_bg.png)',
       backgroundSize: 'cover',
       backgroundPosition: 'center center'
+    },
+    section_7: {
+      backgroundImage: 'url(/images/dobra_7_bg.png)',
+      backgroundSize: 'cover',
     },
     common_width: {
       width: '430px',
@@ -96,7 +103,7 @@ const Home = () => {
         </Container>
       </Container>
 
-      <Container maxWidth={'100vw'}>
+      <Container maxWidth={'100vw'} className={classes.section_2}>
         <Container maxWidth={'md'} className={classes.common_padding}>
           {
             //Grid do ícone Brain com todo conteúdo
@@ -334,7 +341,7 @@ const Home = () => {
         </Container>
       </Container>
 
-      <Container maxWidth={`100vw`}>
+      <Container maxWidth={`100vw`} style={{background: '#EBE5E5'}}>
         <Container maxWidth={'md'} className={classes.common_padding}>
           <Typography
             variant={'h2'}
@@ -394,6 +401,34 @@ const Home = () => {
           </Box>
         </Container>
       </Container> 
+
+      <Container maxWidth={`100vw`} className={`${classes.section_7} ${classes.common_padding}`}>
+        <Container maxWidth={'md'}>
+          <Typography
+            variant={'h2'}  
+            fontSize={'24px'}
+            lineHeight={'42px'}
+            className={classes.common_width}
+            color={'#75DBCD'}
+          >
+            SOBRE
+          </Typography>
+
+          <Typography 
+            variant={'h2'} 
+            fontSize={'32px'}
+            lineHeight={'42px'}
+            className={`${classes.common_width} ${classes.margin_16}`}
+            color={'#EBE5E5'}
+          >
+            HELANO MARIZ
+          </Typography>
+          
+          <Typography color={'#EBE5E5'} className={classes.common_width}>
+            Na minha caminhada ministerial, mesmo sem compreender na época, no início dos anos 2002, quando minha esposa Renata Mariz enfrentou uma intensa depressão, percebi a importância do cuidado humano. <br/><br/>Desde então, passei a me dedicar ainda mais ao próximo, sendo reconhecido por muitos como um verdadeiro e fiel conselheiro. Ao longo dessa jornada, novos projetos e desafios foram sugeridos, tanto na área empreendedora quanto no cuidado humano. <br/><br/>Então me especializei em diversas áreas, sendo hoje: Analista comportamental, Especialista em sexologia e psicologia e Profissional em Coach. Tudo isso com o intuito de ajudar diferentes pessoas, em diferentes áreas de suas vidas.
+          </Typography>
+        </Container>
+      </Container>
 
     </TemplateDefault>
   )
