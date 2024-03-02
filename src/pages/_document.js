@@ -22,7 +22,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+          <link rel="shortcut icon" href="/images/favicon.svg" type="image/png" />
+        </Head>
         <body>
           <Main />
           <NextScript />
