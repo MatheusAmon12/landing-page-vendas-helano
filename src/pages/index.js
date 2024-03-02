@@ -334,6 +334,67 @@ const Home = () => {
         </Container>
       </Container>
 
+      <Container maxWidth={`100vw`}>
+        <Container maxWidth={'md'} className={classes.common_padding}>
+          <Typography
+            variant={'h2'}
+            fontSize={'32px'}
+            lineHeight={'42px'}
+            textAlign={'center'}
+            className={`${classes.common_width} ${classes.alignCenter_div}`}
+            style={{marginBottom: '40px'}}
+          >
+            Tenha uma <strong>mudança de pensamento</strong> e <strong>viva o seu propósito com Deus</strong>
+          </Typography>
+
+          <Box className={classes.priceBox}>
+            <Typography 
+              textAlign={'center'} 
+            >
+              <s>de R$997,90</s>
+            </Typography>
+
+            <Typography 
+              textAlign={'center'} 
+              fontSize={'24px'}
+            >
+              por apenas
+            </Typography>
+
+            <Typography 
+              textAlign={'center'} 
+              fontSize={'32px'}
+              fontWeight={'bold'}
+            >
+              12x de
+            </Typography>
+
+            <Typography 
+              textAlign={'center'} 
+              fontSize={'88px'}
+              fontWeight={'bold'}
+            >
+              R$57,90
+            </Typography>
+
+            <Typography 
+              textAlign={'center'} 
+              fontSize={'24px'}
+              className={classes.margin_40}
+            >
+              ou R$597,90 à vista
+            </Typography>
+
+            <Button 
+              color={'primary'}
+              text={'Quero participar'}
+              display={'block'}
+              margin={'0 auto'}
+            />
+          </Box>
+        </Container>
+      </Container> 
+
     </TemplateDefault>
   )
 }
