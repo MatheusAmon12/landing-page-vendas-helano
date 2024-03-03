@@ -251,7 +251,7 @@ const Home = () => {
         </Container>
       </Container>
 
-      <Container maxWidth={'100vw'}>
+      <Container maxWidth={'100vw'} style={{background: '#EBE5E5'}}>
         <Container maxWidth={'md'} className={classes.common_padding}>
           <Typography
             variant={'h2'}
@@ -263,6 +263,15 @@ const Home = () => {
           >
             A imersão já <strong>transformou a vida de mais de 300 famílias</strong> e uma dessas famílias foi a da Nelma. Assista o vídeo e <strong>veja as mudanças</strong> que ela teve na vida dela e da família:
           </Typography>
+
+          <Container className={`${classes.video_container} ${classes.margin_40}`}>
+            <iframe
+              src="https://drive.google.com/file/d/1KxT8ACaUxXiBkuH1flerPr6uh4D15vAO/preview"
+              allow="autoplay"
+              className={classes.video}
+            />
+          </Container>
+
           <Typography
             variant={'h2'}
             fontSize={'24px'}
@@ -274,7 +283,7 @@ const Home = () => {
             Assim como a Nelma <strong>você também pode ter essa transformação na sua família.</strong>
           </Typography>
           <Button
-            color={'tertiary'}
+            color={'primary'}
             text={'Quero essa transformação!'}
             display={'block'}
             margin={'0 auto'}
@@ -298,7 +307,8 @@ const Home = () => {
             style={{
               display: 'flex', 
               flexDirection: 'column', 
-              gap: '8px'
+              gap: '8px',
+              color: '#EBE5E5'
             }}
             className={`${classes.margin_24} ${classes.common_width}`}
           >
