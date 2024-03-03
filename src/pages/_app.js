@@ -4,12 +4,16 @@ import { CacheProvider } from '@emotion/react'
 
 import createEmotionCache from '../../createEmotionCache'
 import theme from '../../theme'
+import Head from 'next/head'
  
 export default function MyApp({ Component, pageProps }) {
   const cache = createEmotionCache()
 
   return (
     <>
+      <Head>
+        <title>Valorizando a Essência</title>
+      </Head>
       <CssBaseline />
       <CacheProvider value={cache}>
         <ThemeProvider theme={theme}>
