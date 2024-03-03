@@ -13,6 +13,31 @@ const useStyles = makeStyles()(() => {
         width: '350px'
       }
     },
+    video_container: {
+      position: 'relative',
+      paddingBottom: '56.25%',
+      height: '0',
+      overflow: 'hidden',
+      boxShadow:  '10px 12px 28px -12px rgba(0,0,0,0.75)'
+    },
+    video: {
+      position: 'absolute',
+      top: '0',
+      left: '0',
+      width: '100%',
+      height: '100%',
+      border: 'none',
+      borderRadius: '7px',
+    },
+    section_1: {
+      backgroundImage: 'url(/images/dobra_1_bg.png)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center center',
+      [theme.breakpoints.down('sm')]: {
+        backgroundImage: 'url(/images/dobra_1_bg_sm.png)',
+        height: '1238px'
+      }
+    },
     section_2: {
       background: theme.palette.background.default
     },
@@ -98,24 +123,39 @@ const Home = () => {
 
   return(
     <TemplateDefault>
-      <Container maxWidth={'100vw'}>
-        <Container maxWidth={'md'} style={{padding: '80px 0 197px'}}>
+      <Container maxWidth={'100vw'} className={classes.section_1}>
+        <Container maxWidth={'md'} style={{padding: '80px 0 197px', color: '#EBE5E5'}}>
           <Typography
             fontSize={'38px'}
             lineHeight={'48px'}
             textAlign={'center'}
             className={`${classes.alignCenter_div} ${classes.margin_8} ${classes.width_700}`}
           >
-            Descubra o poder da sua essência: transforme a sua vida e reconstrua a sua família em 30 dias.
+            Descubra o poder da sua essência: <strong>transforme a sua vida e reconstrua a sua família em 30 dias.</strong>
           </Typography>
           <Typography
             fontSize={'24px'}
             lineHeight={'34px'}
             textAlign={'center'}
-            className={`${classes.alignCenter_div} ${classes.width_700}`}
+            className={`${classes.alignCenter_div} ${classes.width_700} ${classes.margin_40}`}
           >
             Conheça um pouco do que a Imersão Valorizando a Essência oferece a você e sua família. Assista o vídeo:
           </Typography>
+
+          <Container className={`${classes.video_container} ${classes.margin_40}`}>
+            <iframe
+              src="https://drive.google.com/file/d/1KvzjkCasvzJIe-AmpGjsZCfdQ5Su_wXL/preview"
+              allow="autoplay"
+              className={classes.video}
+            />
+          </Container>
+
+          <Button 
+            color={'tertiary'}
+            text={'Quero participar'}
+            display={'block'}
+            margin={'0 auto'}
+          />
         </Container>
       </Container>
 
@@ -437,7 +477,7 @@ const Home = () => {
             className={`${classes.common_width} ${classes.margin_16}`}
             color={'#EBE5E5'}
           >
-            HELANO MARIZ
+            <strong>HELANO MARIZ</strong>
           </Typography>
           
           <Typography color={'#EBE5E5'} className={classes.common_width}>
