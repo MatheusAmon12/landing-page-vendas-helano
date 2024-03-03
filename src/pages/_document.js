@@ -25,6 +25,9 @@ class MyDocument extends Document {
         <Head>
           <link rel="shortcut icon" href="/images/favicon.svg" type="image/png" />
 
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
           <script dangerouslySetInnerHTML={{__html: `
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
