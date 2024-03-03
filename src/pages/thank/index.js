@@ -10,9 +10,10 @@ const useStyles = makeStyles()((theme) => {
             height: '944px',
             backgroundImage: 'url(/images/thankPage_bg.png)',
             backgroundPosition: 'center center',
+            backgroundSize: 'cover',
             [theme.breakpoints.down('sm')]: {
                 height: '1289px',
-                backgroundImage: 'url(/images/thankPage_bg_sm.png)'
+                backgroundImage: 'url(/images/thankPage_bg_sm.png)',
             }
         },
         common_width: {
