@@ -3,6 +3,7 @@ import { makeStyles } from 'tss-react/mui'
 
 import Button from '@/components/Button'
 import TemplateDefault from '@/templates/Default'
+import Link from 'next/link'
 
 const useStyles = makeStyles()((theme) => {
     return{
@@ -86,10 +87,12 @@ const Thank = () => {
                         </strong>
                     </Typography>
 
-                    <Button 
-                        color={'tertiary'}
-                        text={'Entrar para o grupo VIP'}
-                    />
+                    <Link target='_blank' href='https://chat.whatsapp.com/CmvgB2zF3FjGjD8M1EXFcl' style={{textDecoration: 'none'}}>
+                        <Button 
+                            color={'tertiary'}
+                            text={'Entrar para o grupo VIP'}
+                        />
+                    </Link>
                 </Container>
             </Container>
         </TemplateDefault>
