@@ -21,8 +21,9 @@ class MyDocument extends Document {
  
   render() {
     return (
-      <Html lang="en">
+      <Html lang="pt-br">
         <Head>
+          <title>Valorizando a Essência</title>
           <link rel="shortcut icon" href="/images/favicon.svg" type="image/png" />
         </Head>
         <body>
