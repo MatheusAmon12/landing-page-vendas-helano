@@ -4,6 +4,7 @@ import { Container, Typography, Grid, Box} from '@mui/material'
 import { makeStyles } from 'tss-react/mui'
 import theme from '../../theme'
 import Button from '@/components/Button'
+import Link from 'next/link'
 
 const useStyles = makeStyles()(() => {
   return{
@@ -114,6 +115,9 @@ const useStyles = makeStyles()(() => {
       [theme.breakpoints.down('sm')]: {
         width: '350px',
       }
+    },
+    link: {
+      textDecoration: 'none'
     }
   }
 })
@@ -150,12 +154,14 @@ const Home = () => {
             />
           </Container>
 
-          <Button 
-            color={'tertiary'}
-            text={'Quero participar'}
-            display={'block'}
-            margin={'0 auto'}
-          />
+          <Link className={classes.link} target='_blank' href={'https://pay.kiwify.com.br/A40M9No'}>
+            <Button
+              color={'tertiary'}
+              text={'Quero participar'}
+              display={'block'}
+              margin={'0 auto'}
+            />
+          </Link>
         </Container>
       </Container>
 
@@ -240,10 +246,12 @@ const Home = () => {
                 </Grid>
               </Grid>
 
-              <Button 
-                color={'primary'}
-                text={'Quero participar'}
-              />
+              <Link className={classes.link} target='_blank' href={'https://pay.kiwify.com.br/A40M9No'}>
+                <Button
+                  color={'primary'}
+                  text={'Quero participar'}
+                />
+              </Link>
 
             </Grid>
           </Grid>
@@ -282,12 +290,14 @@ const Home = () => {
           >
             Assim como a Nelma <strong>você também pode ter essa transformação na sua família.</strong>
           </Typography>
-          <Button
-            color={'primary'}
-            text={'Quero essa transformação!'}
-            display={'block'}
-            margin={'0 auto'}
-          />
+          <Link className={classes.link} target='_blank' href={'https://pay.kiwify.com.br/A40M9No'}>
+            <Button
+              color={'primary'}
+              text={'Quero essa transformação!'}
+              display={'block'}
+              margin={'0 auto'}
+            />
+          </Link>
         </Container>
       </Container>       
 
@@ -349,10 +359,12 @@ const Home = () => {
             <strong>Você precisa e quer mudar a sua situação</strong> hoje com a sua família e principalmente com você?
           </Typography>
 
-          <Button 
-            color={'tertiary'}
-            text={'Sim! Quero participar'}
-          />
+          <Link className={classes.link} target='_blank' href={'https://pay.kiwify.com.br/A40M9No'}>
+            <Button
+              color={'tertiary'}
+              text={'Sim! Quero participar'}
+            />
+          </Link>
         </Container>
       </Container>
 
@@ -398,10 +410,12 @@ const Home = () => {
               Você deseja participar desse jornada de <strong>autoconhecimento e transformação?</strong>
             </Typography>
 
-            <Button 
-              color={'primary'}
-              text={'Quero participar'}
-            />
+            <Link className={classes.link} target='_blank' href={'https://pay.kiwify.com.br/A40M9No'}>
+              <Button
+                color={'primary'}
+                text={'Quero participar'}
+              />
+            </Link>
           </Box>
           
         </Container>
@@ -447,7 +461,7 @@ const Home = () => {
               fontSize={'88px'}
               fontWeight={'bold'}
             >
-              R$57,90
+              R$60,03
             </Typography>
 
             <Typography 
@@ -458,12 +472,14 @@ const Home = () => {
               ou R$597,90 à vista
             </Typography>
 
-            <Button 
-              color={'primary'}
-              text={'Quero participar'}
-              display={'block'}
-              margin={'0 auto'}
-            />
+            <Link className={classes.link} target='_blank' href={'https://pay.kiwify.com.br/A40M9No'}>           
+              <Button 
+                color={'primary'}
+                text={'Quero participar'}
+                display={'block'}
+                margin={'0 auto'}
+              />
+            </Link>
           </Box>
         </Container>
       </Container> 
