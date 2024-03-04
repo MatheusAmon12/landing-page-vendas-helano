@@ -28,6 +28,8 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 
+          <meta name="facebook-domain-verification" content="umlywmh2jkgkjjuzk4kum2f0tigbpo" />
+
           <script dangerouslySetInnerHTML={{__html: `
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
