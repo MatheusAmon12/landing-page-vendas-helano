@@ -7,6 +7,9 @@ import Link from 'next/link'
 
 const useStyles = makeStyles()((theme) => {
     return{
+        custom_font: {
+            fontFamily: 'Raleway, sans-serif'
+        },
         container: {
             height: '944px',
             backgroundImage: 'url(/images/thankPage_bg.webp)',
@@ -59,9 +62,8 @@ const Thank = () => {
             <Container maxWidth={'100vw'} className={classes.container}>
                 <Container maxWidth={'md'} className={classes.common_padding}>
                     <Typography
-                        variant={'h1'}
                         color={'#75DBCD'}
-                        className={`${classes.common_width} ${classes.thank} ${classes.margin_24}`}
+                        className={`${classes.common_width} ${classes.thank} ${classes.margin_24} ${classes.custom_font}`}
                     >
                         OBRIGADO POR DAR O PRIMEIRO PASSO PARA UMA JORNADA TRANSFORMADORA
                     </Typography>

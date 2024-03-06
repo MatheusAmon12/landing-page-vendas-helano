@@ -25,12 +25,6 @@ class MyDocument extends Document {
         <Head>
           <link rel="shortcut icon" href="/images/favicon.svg" type="image/png" />
 
-          <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
-          <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
-
           <meta name="facebook-domain-verification" content="umlywmh2jkgkjjuzk4kum2f0tigbpo" />
 
           <script async dangerouslySetInnerHTML={{__html: `

@@ -7,6 +7,8 @@ import lozad from 'lozad'
 import createEmotionCache from '../../createEmotionCache'
 import theme from '../../theme'
 import Head from 'next/head'
+
+import '@/styles/fonts.css'
  
 export default function MyApp({ Component, pageProps }) {
   const cache = createEmotionCache()

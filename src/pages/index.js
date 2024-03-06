@@ -17,7 +17,7 @@ const Home = () => {
             fontSize={'38px'}
             lineHeight={'48px'}
             textAlign={'center'}
-            className={`${classes.alignCenter_div} ${classes.margin_8} ${classes.width_700}`}
+            className={`${classes.alignCenter_div} ${classes.margin_8} ${classes.width_700} ${classes.custom_font}`}
           >
             Descubra o poder da sua essência: <strong>transforme a sua vida e reconstrua a sua família em 30 dias.</strong>
           </Typography>
@@ -58,9 +58,8 @@ const Home = () => {
 
             <Grid item md={6} sm={12}>
               <Typography
-                variant={'h2'}
                 fontSize={'24px'}
-                className={classes.margin_24}
+                className={`${classes.margin_24} ${classes.custom_font}`}
               >
                 Irei te ajudar a <strong>superar os traumas</strong> e encontrar <strong>equilíbrio em seus relacionamentos</strong>
               </Typography>
@@ -143,12 +142,11 @@ const Home = () => {
       <Container maxWidth={'100vw'} style={{background: '#EBE5E5'}}>
         <Container maxWidth={'md'} className={classes.common_padding}>
           <Typography
-            variant={'h2'}
             fontSize={'24px'}
             lineHeight={'34px'}
             textAlign={'center'}
             width={'700px'}
-            className={`${classes.alignCenter_div} ${classes.margin_40} ${classes.width_700}`}
+            className={`${classes.alignCenter_div} ${classes.margin_40} ${classes.width_700} ${classes.custom_font}`}
           >
             A imersão já <strong>transformou a vida de mais de 300 famílias</strong> e uma dessas famílias foi a da Nelma. Assista o vídeo e <strong>veja as mudanças</strong> que ela teve na vida dela e da família:
           </Typography>
@@ -159,12 +157,11 @@ const Home = () => {
           />
 
           <Typography
-            variant={'h2'}
             fontSize={'24px'}
             lineHeight={'34px'}
             textAlign={'center'}
             width={'700px'}
-            className={`${classes.alignCenter_div} ${classes.margin_80} ${classes.width_700}`}
+            className={`${classes.alignCenter_div} ${classes.margin_80} ${classes.width_700} ${classes.custom_font}`}
           >
             Assim como a Nelma <strong>você também pode ter essa transformação na sua família.</strong>
           </Typography>
@@ -182,11 +179,10 @@ const Home = () => {
       <Container maxWidth={'100vw'} className={classes.section_4}>
         <Container maxWidth={'md'} className={classes.common_padding} style={{color: '#EBE5E5'}}>
           <Typography
-            variant={'h2'}
             fontSize={'32px'}
             lineHeight={'42px'}
             fontWeight={'bold'}
-            className={classes.margin_16}
+            className={`${classes.margin_16} ${classes.custom_font}`}
           >
             A imersão é para mim?
           </Typography>
@@ -249,10 +245,9 @@ const Home = () => {
       <Container maxWidth={'100vw'} className={classes.section_5}>
         <Container maxWidth='md' className={classes.common_padding}>
           <Typography
-            variant={'h2'}
             fontSize={'32px'}
             lineHeight={'42px'}
-            className={`${classes.common_width} ${classes.alignCenter_div} ${classes.margin_24}`}
+            className={`${classes.common_width} ${classes.alignCenter_div} ${classes.margin_24} ${classes.custom_font}`}
           >
             Após a imersão <strong>você terá a melhor versão de si mesma.</strong>
           </Typography>
@@ -302,11 +297,10 @@ const Home = () => {
       <Container maxWidth={`100vw`} style={{background: '#EBE5E5'}}>
         <Container maxWidth={'md'} className={classes.common_padding}>
           <Typography
-            variant={'h2'}
             fontSize={'32px'}
             lineHeight={'42px'}
             textAlign={'center'}
-            className={`${classes.common_width} ${classes.alignCenter_div}`}
+            className={`${classes.common_width} ${classes.alignCenter_div} ${classes.custom_font}`}
             style={{marginBottom: '40px'}}
           >
             Tenha uma <strong>mudança de pensamento</strong> e <strong>viva o seu propósito com Deus</strong>
@@ -365,20 +359,18 @@ const Home = () => {
       <Container maxWidth={`100vw`} className={`${classes.section_7} ${classes.common_padding}`}>
         <Container maxWidth={'md'}>
           <Typography
-            variant={'h2'}  
             fontSize={'24px'}
             lineHeight={'42px'}
-            className={classes.common_width}
+            className={`${classes.common_width} ${classes.custom_font}`}
             color={'#75DBCD'}
           >
             SOBRE
           </Typography>
 
           <Typography 
-            variant={'h2'} 
             fontSize={'32px'}
             lineHeight={'42px'}
-            className={`${classes.common_width} ${classes.margin_16}`}
+            className={`${classes.common_width} ${classes.margin_16} ${classes.custom_font}`}
             color={'#EBE5E5'}
           >
             <strong>HELANO MARIZ</strong>

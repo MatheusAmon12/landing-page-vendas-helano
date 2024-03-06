@@ -4,6 +4,9 @@ import theme from "../../theme"
 
 const useStyles = makeStyles()(() => {
     return{
+        custom_font: {
+            fontFamily: 'Raleway, sans-serif'
+        },
         width_700: {
             width: '700px',
             [theme.breakpoints.down('sm')]: {
