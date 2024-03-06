@@ -48,9 +48,6 @@ const Home = () => {
 
       <Container maxWidth={'100vw'} className={classes.section_2}>
         <Container maxWidth={'md'} className={classes.common_padding}>
-          {
-            //Grid do ícone Brain com todo conteúdo
-          }
           <Grid container rowSpacing={'160'} className={classes.grid}>
             <Grid item md={6} sm={12}>
               <img src='/images/brainIcon.png' className={classes.brainIcon} alt='Ícone de cérebro' loading='lazy'/>
@@ -64,14 +61,9 @@ const Home = () => {
                 Irei te ajudar a <strong>superar os traumas</strong> e encontrar <strong>equilíbrio em seus relacionamentos</strong>
               </Typography>
 
-              {
-                //Grid do conjunto de ícones e textos
-              }
               <Grid container rowSpacing={'32'} className={classes.margin_40}>
                 <Grid item>
-                  {
-                    //Grid do ícone e seu respectivo texto
-                  }
+
                   <Grid container className={classes.grid}>
                     <Grid item md={6} sm={12}>
                       <img src='/images/iconConhece-te.png' alt='Conhece-te' loading='lazy'/>
