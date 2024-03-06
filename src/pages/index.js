@@ -173,7 +173,7 @@ const Home = () => {
           }
           <Grid container rowSpacing={'160'} className={classes.grid}>
             <Grid item md={6} sm={12}>
-              <img src='/images/brainIcon.png' className={classes.brainIcon} loading='lazy'/>
+              <img src='/images/brainIcon.png' className={classes.brainIcon} alt='Ícone de cérebro' loading='lazy'/>
             </Grid>
 
             <Grid item md={6} sm={12}>
@@ -195,7 +195,7 @@ const Home = () => {
                   }
                   <Grid container className={classes.grid}>
                     <Grid item md={6} sm={12}>
-                      <img src='/images/iconConhece-te.png' loading='lazy'/>
+                      <img src='/images/iconConhece-te.png' alt='Conhece-te' loading='lazy'/>
                     </Grid>
                     
                     <Grid item md={6} sm={12}>
@@ -213,7 +213,7 @@ const Home = () => {
                 <Grid item>
                   <Grid container className={classes.grid}>
                     <Grid item md={6} sm={12}>
-                      <img src='/images/iconAceita-te.png' loading='lazy'/>
+                      <img src='/images/iconAceita-te.png' alt='Aceita-te' loading='lazy'/>
                     </Grid>
                     
                     <Grid item md={6} sm={12}>
@@ -231,7 +231,7 @@ const Home = () => {
                 <Grid item>
                   <Grid container className={classes.grid}>
                     <Grid item md={6} sm={12}>
-                      <img src='/images/iconTransforma-te.png' loading='lazy'/>
+                      <img src='/images/iconTransforma-te.png' alt='Supera-te' loading='lazy'/>
                     </Grid>
                     
                     <Grid item md={6} sm={12}>

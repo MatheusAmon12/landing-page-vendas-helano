@@ -18,5 +18,8 @@
     "react": "^18",
     "react-dom": "^18",
     "tss-react": "^4.9.4"
+  },
+  "devDependencies": {
+    "css-minimizer-webpack-plugin": "^6.0.0"
   }
 }
