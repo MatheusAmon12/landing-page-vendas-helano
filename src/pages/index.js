@@ -151,6 +151,7 @@ const Home = () => {
               src="https://drive.google.com/file/d/1iK3nebI-UViJqzhB9AA6guBwxVq2vM2C/preview"
               allow="autoplay"
               className={classes.video}
+              title='Vídeo Helano Mariz'
               loading='lazy'
             />
           </Container>
@@ -278,6 +279,7 @@ const Home = () => {
               src="https://drive.google.com/file/d/1LvZpztTtiETbIfg1flAVV27UNqEYjI0a/preview"
               allow="autoplay"
               className={classes.video}
+              title='Depoimento Nelma'
               loading='lazy'
             />
           </Container>
