@@ -9,12 +9,12 @@ const useStyles = makeStyles()((theme) => {
     return{
         container: {
             height: '944px',
-            backgroundImage: 'url(/images/thankPage_bg.png)',
+            backgroundImage: 'url(/images/thankPage_bg.webp)',
             backgroundPosition: 'center center',
             backgroundSize: 'cover',
             [theme.breakpoints.down('sm')]: {
                 height: '1289px',
-                backgroundImage: 'url(/images/thankPage_bg_sm.png)',
+                backgroundImage: 'url(/images/thankPage_bg_sm.webp)',
             }
         },
         common_width: {

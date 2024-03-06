@@ -31,11 +31,11 @@ const useStyles = makeStyles()(() => {
       borderRadius: '7px',
     },
     section_1: {
-      backgroundImage: 'url(/images/dobra_1_bg.png)',
+      backgroundImage: 'url(/images/dobra_1_bg.webp)',
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
       [theme.breakpoints.down('sm')]: {
-        backgroundImage: 'url(/images/dobra_1_bg_sm.png)',
+        backgroundImage: 'url(/images/dobra_1_bg_sm.webp)',
         height: '1238px'
       }
     },
@@ -43,28 +43,28 @@ const useStyles = makeStyles()(() => {
       background: theme.palette.background.default
     },
     section_4: {
-      backgroundImage: 'url(/images/dobra_4_bg.png)',
+      backgroundImage: 'url(/images/dobra_4_bg.webp)',
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
       [theme.breakpoints.down('sm')]: {
-        backgroundImage: 'url(/images/dobra_4_bg_sm.png)',
+        backgroundImage: 'url(/images/dobra_4_bg_sm.webp)',
         height: '1670px'
       }
     },
     section_5: {
-      backgroundImage: 'url(/images/dobra_5_bg.png)',
+      backgroundImage: 'url(/images/dobra_5_bg.webp)',
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
       [theme.breakpoints.down('sm')]: {
-        backgroundImage: 'url(/images/dobra_5_bg_sm.png)',
+        backgroundImage: 'url(/images/dobra_5_bg_sm.webp)',
         height: '1526px'
       }
     },
     section_7: {
-      backgroundImage: 'url(/images/dobra_7_bg.png)',
+      backgroundImage: 'url(/images/dobra_7_bg.webp)',
       backgroundSize: 'cover',
       [theme.breakpoints.down('sm')]: {
-        backgroundImage: 'url(/images/dobra_7_bg_sm.png)',
+        backgroundImage: 'url(/images/dobra_7_bg_sm.webp)',
         height: '1167px'
       }
     },
