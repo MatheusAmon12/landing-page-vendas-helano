@@ -148,9 +148,10 @@ const Home = () => {
 
           <Container className={`${classes.video_container} ${classes.margin_40}`}>
             <iframe
-              src="https://drive.google.com/file/d/1KvzjkCasvzJIe-AmpGjsZCfdQ5Su_wXL/preview"
+              src="https://drive.google.com/file/d/1iK3nebI-UViJqzhB9AA6guBwxVq2vM2C/preview"
               allow="autoplay"
               className={classes.video}
+              loading='lazy'
             />
           </Container>
 
@@ -274,9 +275,10 @@ const Home = () => {
 
           <Container className={`${classes.video_container} ${classes.margin_40}`}>
             <iframe
-              src="https://drive.google.com/file/d/1KxT8ACaUxXiBkuH1flerPr6uh4D15vAO/preview"
+              src="https://drive.google.com/file/d/1LvZpztTtiETbIfg1flAVV27UNqEYjI0a/preview"
               allow="autoplay"
               className={classes.video}
+              loading='lazy'
             />
           </Container>
 
