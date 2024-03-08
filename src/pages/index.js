@@ -8,6 +8,7 @@ import useStyles from './styles'
 import Iframe from '@/components/Iframe'
 const Home = () => {
   const {classes} = useStyles()
+  const checkout = 'https://pay.kiwify.com.br/vA5a9rR'
 
   return(
     <TemplateDefault>
@@ -35,7 +36,7 @@ const Home = () => {
             title={"Apresentação Helano"}
           />
 
-          <Link className={classes.link} target='_blank' href={'https://pay.kiwify.com.br/A40M9No'}>
+          <Link className={classes.link} target='_blank' href={`${checkout}`}>
             <Button
               color={'tertiary'}
               text={'Quero participar'}
@@ -118,7 +119,7 @@ const Home = () => {
                 </Grid>
               </Grid>
 
-              <Link className={classes.link} target='_blank' href={'https://pay.kiwify.com.br/A40M9No'}>
+              <Link className={classes.link} target='_blank' href={`${checkout}`}>
                 <Button
                   color={'primary'}
                   text={'Quero participar'}
@@ -157,7 +158,7 @@ const Home = () => {
           >
             Assim como a Nelma <strong>você também pode ter essa transformação na sua família.</strong>
           </Typography>
-          <Link className={classes.link} target='_blank' href={'https://pay.kiwify.com.br/A40M9No'}>
+          <Link className={classes.link} target='_blank' href={`${checkout}`}>
             <Button
               color={'primary'}
               text={'Quero essa transformação!'}
@@ -225,7 +226,7 @@ const Home = () => {
             <strong>Você precisa e quer mudar a sua situação</strong> hoje com a sua família e principalmente com você?
           </Typography>
 
-          <Link className={classes.link} target='_blank' href={'https://pay.kiwify.com.br/A40M9No'}>
+          <Link className={classes.link} target='_blank' href={`${checkout}`}>
             <Button
               color={'tertiary'}
               text={'Sim! Quero participar'}
@@ -275,7 +276,7 @@ const Home = () => {
               Você deseja participar desse jornada de <strong>autoconhecimento e transformação?</strong>
             </Typography>
 
-            <Link className={classes.link} target='_blank' href={'https://pay.kiwify.com.br/A40M9No'}>
+            <Link className={classes.link} target='_blank' href={`${checkout}`}>
               <Button
                 color={'primary'}
                 text={'Quero participar'}
@@ -299,18 +300,6 @@ const Home = () => {
           </Typography>
 
           <Box className={classes.priceBox}>
-            <Typography 
-              textAlign={'center'} 
-            >
-              <s>de R$997,90</s>
-            </Typography>
-
-            <Typography 
-              textAlign={'center'} 
-              fontSize={'24px'}
-            >
-              por apenas
-            </Typography>
 
             <Typography 
               textAlign={'center'} 
@@ -325,7 +314,7 @@ const Home = () => {
               fontSize={'88px'}
               fontWeight={'bold'}
             >
-              R$60,03
+              R$100,19
             </Typography>
 
             <Typography 
@@ -333,10 +322,10 @@ const Home = () => {
               fontSize={'24px'}
               className={classes.margin_40}
             >
-              ou R$597,90 à vista
+              ou R$997,90 à vista
             </Typography>
 
-            <Link className={classes.link} target='_blank' href={'https://pay.kiwify.com.br/A40M9No'}>           
+            <Link className={classes.link} target='_blank' href={`${checkout}`}>           
               <Button 
                 color={'primary'}
                 text={'Quero participar'}
